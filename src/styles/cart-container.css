@@ -2,7 +2,9 @@
     max-width: 40rem;
     margin: 0 auto;
 }
-
+.empty{
+  padding: 10vh 0;
+}
 .cart-title {
     text-align: center;
     padding: 1.4rem;

@@ -1,7 +1,9 @@
-import '../styles/cart-item.css'
+import { useDispatch } from 'react-redux';
+import { removeItem, increase, decrease } from '../features/cart/cartSlice';
+import '../styles/cart-item.css';
 import { chevronDown, chevronUp } from './Icons';
 const CartItem = ({ id, title, price, img, amount }) => {
-
+const dispatch = useDispatch();
     return (
         <div>
             <div className="item-body">
@@ -10,13 +12,13 @@ const CartItem = ({ id, title, price, img, amount }) => {
                     <div className="details">
                         <h4 className='title'>{title}</h4>
                         <h4 className='price'>${price}</h4>
-                        <button className='remove-btn'>remove</button>
+                        <button onClick={() => dispatch(removeItem(id))} className='remove-btn'>remove</button>
                     </div>
                 </div>
                 <div className="item-action">
-                    <button>{chevronUp}</button>
+                    <button onClick={() => dispatch(increase(id))}>{chevronUp}</button>
                     <span>{amount}</span>
-                    <button>{chevronDown}</button>
+                    <button onClick={() => dispatch(decrease(id))}>{chevronDown}</button>
                 </div>
             </div>
 

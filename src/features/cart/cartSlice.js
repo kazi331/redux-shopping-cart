@@ -12,13 +12,32 @@ const cartSlice = createSlice({
     reducers: {
         clearCart: state => {
             state.cartItems = [];
-            state.amount = 0;
+            state.amount = state.cartItems.length;
+        },
+        removeItem: (state, action) => {
+            // console.log(action)
+            const itemId = action.payload;
+            state.cartItems = state.cartItems.filter(item => itemId !== item.id);
+            state.amount = state.cartItems.length;
+
+        },
+        increase: (state, action) => {
+            const itemId = action.payload;
+            const productItem = state.cartItems.find(item => item.id === itemId);
+            productItem.amount += 1;
+        },
+        decrease: (state, action) => {
+            const itemId = action.payload;
+            const productItem = state.cartItems.find(item => item.id === itemId);
+            if (productItem.amount > 1) {
+                productItem.amount -= 1;
+            }
         }
     }
 
 });
 
-console.log(cartSlice);
+// console.log(cartSlice);
 
-export const { clearCart } = cartSlice.actions;
+export const { clearCart, removeItem, increase, decrease } = cartSlice.actions;
 export default cartSlice.reducer

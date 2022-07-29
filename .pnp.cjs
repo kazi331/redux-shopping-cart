@@ -41,6 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:18.2.0"],\
             ["react-redux", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:8.0.2"],\
             ["react-router-dom", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:6.3.0"],\
+            ["uuid", "npm:8.3.2"],\
             ["vite", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:3.0.3"]\
           ],\
           "linkType": "SOFT"\
@@ -2105,6 +2106,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-dom", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:18.2.0"],\
             ["react-redux", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:8.0.2"],\
             ["react-router-dom", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:6.3.0"],\
+            ["uuid", "npm:8.3.2"],\
             ["vite", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:3.0.3"]\
           ],\
           "linkType": "SOFT"\
@@ -2467,6 +2469,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/util-deprecate-npm-1.0.2-e3fe1a219c-474acf1146.zip/node_modules/util-deprecate/",\
           "packageDependencies": [\
             ["util-deprecate", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["uuid", [\
+        ["npm:8.3.2", {\
+          "packageLocation": "./.yarn/cache/uuid-npm-8.3.2-eca0baba53-5575a8a75c.zip/node_modules/uuid/",\
+          "packageDependencies": [\
+            ["uuid", "npm:8.3.2"]\
           ],\
           "linkType": "HARD"\
         }]\
