@@ -49,7 +49,6 @@ const cartSlice = createSlice({
     },
     extraReducers: {
         [loadProducts.pending]: (state, action) => {
-            state.status = 'loading'
             state.isLoading = true
         },
         [loadProducts.fulfilled]: (state, { payload }) => {

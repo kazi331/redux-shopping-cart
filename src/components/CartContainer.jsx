@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import emptyCart from '../assets/empty_cart-512.webp';
 import { clearCart, loadProducts } from "../features/cart/cartSlice";
-import { openModal } from "../features/modal/modalSlice";
 import '../styles/cart-container.css';
 import CartItem from "./CartItem";
 import Modal from "./Modal";

@@ -7,7 +7,7 @@ import CartContainer from './components/CartContainer';
 import Nav from './components/Nav';
 import { calculateTotals } from './features/cart/cartSlice';
 import About from './pages/About';
-import Products from './pages/Products';
+import Blog from './pages/Blog';
 import Works from './pages/Works';
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
       <Routes>
         <Route path="/" element={<CartContainer />} />
         <Route path="about" element={<About/>} />
-        <Route path="products" element={<Products/>} />
+        <Route path="blog" element={<Blog/>} />
         <Route path="works" element={<Works/>} />
       </Routes>
     </div>
