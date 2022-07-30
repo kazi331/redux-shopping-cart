@@ -7,7 +7,8 @@
     position: fixed;
     top:0;
     left: 0;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(42, 46, 71, 0.666);  
+    background: rgba(255, 255, 255, 0.164);
     backdrop-filter: blur(10px);
 }
 .modal{
@@ -24,11 +25,10 @@ padding-top: 2rem;
 text-align: right;
 }
 .modal .delete{
-    background-color: rgb(204, 38, 38);
+    background-color: rgb(214, 61, 61);
     margin-left: .5rem;
 }
 .modal .delete:hover{
-    background-color: rgb(214, 29, 29);
+    background-color: rgb(223, 48, 48);
     border-color: transparent;
-    
 }

@@ -39,6 +39,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:2.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:18.2.0"],\
+            ["react-hot-toast", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:2.3.0"],\
             ["react-redux", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:8.0.2"],\
             ["react-router-dom", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:6.3.0"],\
             ["uuid", "npm:8.3.2"],\
@@ -1343,6 +1344,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["goober", [\
+        ["npm:2.1.10", {\
+          "packageLocation": "./.yarn/cache/goober-npm-2.1.10-8d98e7ad4b-55a353a477.zip/node_modules/goober/",\
+          "packageDependencies": [\
+            ["goober", "npm:2.1.10"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:24d3253b7d6ca82484809e5c3abb3318117c1dc1802c3bbe13519b147c237b91736ed60eda9612a85e359bf27ac0d62ee2b78adffac010881cc0a1f089d6748c#npm:2.1.10", {\
+          "packageLocation": "./.yarn/__virtual__/goober-virtual-f19b4a76d8/0/cache/goober-npm-2.1.10-8d98e7ad4b-55a353a477.zip/node_modules/goober/",\
+          "packageDependencies": [\
+            ["goober", "virtual:24d3253b7d6ca82484809e5c3abb3318117c1dc1802c3bbe13519b147c237b91736ed60eda9612a85e359bf27ac0d62ee2b78adffac010881cc0a1f089d6748c#npm:2.1.10"],\
+            ["@types/csstype", null],\
+            ["csstype", null]\
+          ],\
+          "packagePeers": [\
+            "@types/csstype",\
+            "csstype"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["graceful-fs", [\
         ["npm:4.2.10", {\
           "packageLocation": "./.yarn/cache/graceful-fs-npm-4.2.10-79c70989ca-3f109d70ae.zip/node_modules/graceful-fs/",\
@@ -1955,6 +1978,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["react-hot-toast", [\
+        ["npm:2.3.0", {\
+          "packageLocation": "./.yarn/cache/react-hot-toast-npm-2.3.0-83d01dff31-d2526f4bf6.zip/node_modules/react-hot-toast/",\
+          "packageDependencies": [\
+            ["react-hot-toast", "npm:2.3.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:2.3.0", {\
+          "packageLocation": "./.yarn/__virtual__/react-hot-toast-virtual-24d3253b7d/0/cache/react-hot-toast-npm-2.3.0-83d01dff31-d2526f4bf6.zip/node_modules/react-hot-toast/",\
+          "packageDependencies": [\
+            ["react-hot-toast", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:2.3.0"],\
+            ["@types/react", "npm:18.0.15"],\
+            ["@types/react-dom", "npm:18.0.6"],\
+            ["goober", "virtual:24d3253b7d6ca82484809e5c3abb3318117c1dc1802c3bbe13519b147c237b91736ed60eda9612a85e359bf27ac0d62ee2b78adffac010881cc0a1f089d6748c#npm:2.1.10"],\
+            ["react", "npm:18.2.0"],\
+            ["react-dom", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:18.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/react-dom",\
+            "@types/react",\
+            "react-dom",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["react-is", [\
         ["npm:16.13.1", {\
           "packageLocation": "./.yarn/cache/react-is-npm-16.13.1-a9b9382b4f-f7a19ac349.zip/node_modules/react-is/",\
@@ -2104,6 +2154,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:2.0.0"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:18.2.0"],\
+            ["react-hot-toast", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:2.3.0"],\
             ["react-redux", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:8.0.2"],\
             ["react-router-dom", "virtual:3d3149cbee81dc3f1a0f36fe69bf0908423908a32e320170c689eafef98e8877150fe6be28ba053be84b7711868a25ee0623144b8a9ad23e8c5a119621b8fa4f#npm:6.3.0"],\
             ["uuid", "npm:8.3.2"],\
