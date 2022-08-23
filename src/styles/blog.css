@@ -1,15 +1,26 @@
-.post-container{
+.post-container {
     display: flex;
     flex-wrap: wrap;
 }
-.post{
-width: 25%;
-margin: 20px;
-padding: 20px;
-background-color: #383c58;
-border-radius: 1rem;
+
+.post {
+    width: 25%;
+    margin: 20px;
+    padding: 20px;
+    background-color: #383c58;
+    border-radius: 1rem;
 }
-.title{
+
+.title {
     text-align: center;
     padding: 1.4rem;
+}
+
+.scroll-progress {
+    background-color: crimson;
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 12px;
+    z-index: 444;
 }

@@ -13,6 +13,7 @@ const Nav = () => {
                     <NavLink className="nav-link" to="about">About</NavLink>
                     <NavLink className="nav-link" to="works">Works</NavLink>
                     <NavLink className="nav-link" to="blog">Blogs</NavLink>
+                    <NavLink className="nav-link" to="contact">Contact</NavLink>
                 </nav>
                 <Link className="cart" to="cart">
                     {bagIcon}  <sup>{amount}</sup>

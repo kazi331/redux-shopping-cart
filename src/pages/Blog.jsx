@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { deletePost, loadPosts } from '../features/blog/blogSlice';
-import '../styles/blog.css'
+import '../styles/blog.css';
 
 const Blog = () => {
     const { blogs, isLoading } = useSelector(state => state.blogs);
@@ -9,6 +9,8 @@ const Blog = () => {
     useEffect(() => {
         dispatch(loadPosts())
     }, []);
+
+
     if (isLoading) {
         return (<div>
             <h3>Loading... </h3>

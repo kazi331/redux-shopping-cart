@@ -7,7 +7,6 @@ const initialState = {
     isLoading: true
 }
 const url = 'https://course-api.com/react-useReducer-cart-project'
-// const url = 'https://jsonplaceholder.typicode.com/posts'
 
 export const loadProducts = createAsyncThunk('cart/loadProducts', async () => {
     return fetch(url).then(res => res.json())

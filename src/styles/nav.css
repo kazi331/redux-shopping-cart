@@ -1,6 +1,9 @@
 .navigation {
     background-color: #1C1E2E;
     padding: 1.2rem 0;
+    position: sticky;
+    top:0;
+    left:0;
 }
 
 header {
